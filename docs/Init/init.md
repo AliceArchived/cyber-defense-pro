@@ -28,3 +28,59 @@ ssh-add ~/.ssh/id_rsa
 # 验证当前身份：
 ssh -i ~/.ssh/id_rsa -T git@github.com
 ```
+
+## Branch
+
+```shell
+git checkout main
+git fetch origin
+git merge origin/work
+```
+
+## Tag
+
+1. Create a Tag
+
+Lightweight tag:
+
+```bash
+git tag v1.0.0
+```
+
+Annotated tag (recommended for releases, includes message and metadata):
+
+```bash
+git tag -a v1.0.0 -m "Release version 1.0.0"
+```
+
+2. Push the Tag to GitHub
+
+```bash
+git push origin v1.0.0
+```
+
+Push All Tags at Once
+
+```bash
+git push origin --tags
+
+
+# view tag
+git tag
+
+# list with details
+git show v1.0.0
+
+
+```
+
+5. Delete a Tag
+
+```bash
+# Delete local
+git tag -d v1.0.0
+
+# delete remote
+git push origin --delete tag v1.0.0
+
+```
