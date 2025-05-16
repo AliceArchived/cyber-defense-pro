@@ -1,31 +1,31 @@
 :root {
-  /* 主色系：离火用神，强调赤橙火光 */
-  --vp-c-accent: #E53935;            /* 烈焰红 */
-  --vp-c-accent-bg: #E53935;
-  --vp-c-accent-hover: #FF7043;      /* 炽橙色，偏柔和 */
+  /* 主色系：强调赤橙火光 */
+  --vp-c-accent: #e53935; /* 烈焰红 */
+  --vp-c-accent-bg: #e53935;
+  --vp-c-accent-hover: #ff7043; /* 炽橙色，偏柔和 */
   --vp-c-accent-text: #ffffff;
   --vp-c-accent-soft: rgba(229, 57, 53, 0.14);
 
-  /* 背景色与主结构色：去土化 + 火调感 */
-  --vp-c-bg: #FFF3E0;                /* 米橙色，偏火 */
-  --vp-c-bg-alt: #FFE0B2;            /* 柔暖橙米 */
-  --vp-c-bg-elv: #FFFFFF;
+  /* 背景色与主结构色：火调感 */
+  --vp-c-bg: #fff3e0; /* 米橙色，偏火 */
+  --vp-c-bg-alt: #ffe0b2; /* 柔暖橙米 */
+  --vp-c-bg-elv: #ffffff;
 
   /* 文本配色：保持深色以利可读性 */
-  --vp-c-text: #2D2D2D;
+  --vp-c-text: #2d2d2d;
   --vp-c-text-mute: rgba(45, 45, 45, 0.78);
   --vp-c-text-subtle: rgba(45, 45, 45, 0.56);
 
-  /* 边框和阴影：避免驼土色，统一用橘红系 */
-  --vp-c-gutter: #F8B8A0;            /* 火光驼橘 */
-  --vp-c-border: #F28C6A;            /* 橙红边线 */
-  --vp-c-border-hard: #E86B47;       /* 赤橙强化线 */
+  /* 边框和阴影：统一用橘红系 */
+  --vp-c-gutter: #f8b8a0; /* 火光驼橘 */
+  --vp-c-border: #f28c6a; /* 橙红边线 */
+  --vp-c-border-hard: #e86b47; /* 赤橙强化线 */
   --vp-c-shadow: rgba(0, 0, 0, 0.1);
 
   /* 控件背景（按钮、hover） */
-  --vp-c-control: rgba(229, 57, 53, 0.1);      /* 控件底色 */
+  --vp-c-control: rgba(229, 57, 53, 0.1); /* 控件底色 */
   --vp-c-control-hover: rgba(229, 57, 53, 0.18);
-  --vp-c-control-disabled: #FBDCD4;            /* 火粉禁用态 */
+  --vp-c-control-disabled: #fbdcd4; /* 火粉禁用态 */
 
   /* 导航栏与侧边栏 */
   --vp-navbar-c-bg: var(--vp-c-bg);
@@ -33,18 +33,18 @@
 
   /* 代码标签配色（强调火色） */
   --vp-c-code-tab-title: rgba(255, 255, 255, 0.9);
-  --vp-c-code-tab-bg: #FFD8CC;        /* 火光橙粉 */
+  --vp-c-code-tab-bg: #ffd8cc; /* 火光橙粉 */
   --vp-c-code-tab-active: var(--vp-c-accent);
 
   /* 徽章配色 */
-  --badge-c-tip-text: #E53935;
+  --badge-c-tip-text: #e53935;
   --badge-c-tip-bg: rgba(229, 57, 53, 0.1);
-  --badge-c-warning-text: #FB8C00;    /* 亮橙火 */
+  --badge-c-warning-text: #fb8c00; /* 亮橙火 */
   --badge-c-warning-bg: rgba(251, 140, 0, 0.1);
-  --badge-c-danger-text: #C62828;
+  --badge-c-danger-text: #c62828;
   --badge-c-danger-bg: rgba(198, 40, 40, 0.1);
 
-  /* 其他保留（不干扰火格局） */
+  /* 其他保留 */
   --badge-c-important-text: #6a1b9a;
   --badge-c-important-bg: rgba(106, 27, 154, 0.1);
   --badge-c-info-text: #1e88e5;
@@ -53,19 +53,23 @@
   --badge-c-note-bg: rgba(96, 125, 139, 0.1);
 
   /* 结构与字体设置 */
-  --font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", roboto, oxygen, ubuntu, cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --font-family: -apple-system, "BlinkMacSystemFont", "Segoe UI", roboto, oxygen,
+    ubuntu, cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
   --navbar-height: 3.6rem;
-  --navbar-padding-v: .7rem;
+  --navbar-padding-v: 0.7rem;
   --navbar-padding-h: 1.5rem;
   --sidebar-width: 20rem;
-  --sidebar-width-mobile: calc(var(--sidebar-width) * .82);
+  --sidebar-width-mobile: calc(var(--sidebar-width) * 0.82);
   --content-width: 740px;
   --homepage-width: 960px;
   --header-offset: var(--navbar-height);
-  --vp-t-color: .3s ease;
-  --vp-t-transform: .3s ease;
+  --vp-t-color: 0.3s ease;
+  --vp-t-transform: 0.3s ease;
 
   /* 外链图标色 */
-  --external-link-icon: url(data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M0 0h24v24H0V0z' fill='none'/%3E%3Cpath d='M9 5v2h6.59L4 18.59 5.41 20 17 8.41V15h2V5H9z'/%3E%3C/svg%3E);
+  --external-link-icon: url(
+    data:image/svg + xml,
+    %3Csvgxmlns="http://www.w3.org/2000/svg"viewBox="0 0 24 24"%3E%3Cpathd="M0 0h24v24H0V0z"fill="none"/%3E%3Cpathd="M9 5v2h6.59L4 18.59 5.41 20 17 8.41V15h2V5H9z"/%3E%3C/svg%3E
+  );
   --external-link-c-icon: var(--vp-c-text-mute);
 }

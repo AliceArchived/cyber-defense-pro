@@ -1,23 +1,23 @@
-// 主色调（强化用神火）
+// 主色调
 // 原：$theme-color: #F4511E;
-$theme-color: #E53935; // 更纯的烈焰红色，更有冲击力
+$theme-color: #e53935; // 更纯的烈焰红色，更有冲击力
 
-// 链接颜色（辅助用神火）
+// 链接颜色
 // 原：$accent-color: #FFB300;
-$accent-color: #FB8C00; // 去土偏黄，改为亮橙火色，更适合九紫离火格局
+$accent-color: #fb8c00; // 去土偏黄，改为亮橙火色
 
-// 背景色（去土化）
+// 背景色
 // 原：$background-color: #FFF8F1;
-$background-color: #FFF3E0; // 米橙偏火色，保留温暖不养土
+$background-color: #fff3e0; // 米橙偏火色
 
 // 正文标题颜色
-$text-color: #2D2D2D;
+$text-color: #2d2d2d;
 $gray-text-color: rgba(45, 45, 45, 0.56); // 用 root 变量统一灰阶感
 
 // 导航栏背景与文字颜色（继续火红）
-$navbar-background-color: #E53935; // 同主色调一致性
+$navbar-background-color: #e53935; // 同主色调一致性
 $navbar-text-color: #ffffff;
 
 // 代码块背景（火感中性色）
 // 原：#fff3e0 → 保留或轻微加强
-$code-block-bg: #FFE0B2; // 更暖亮的火米色背景，适合 code 区块的聚焦感
+$code-block-bg: #ffe0b2; // 更暖亮的火米色背景，适合 code 区块的聚焦感

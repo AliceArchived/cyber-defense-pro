@@ -27,7 +27,7 @@ export default defineUserConfig({
         },
         // {
         //   text: 'Title',
-        //   collapsable: true,
+        //   collapsible: true,
         //   children: [
         //     'md file',
         //   ],
