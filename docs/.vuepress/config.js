@@ -6,7 +6,7 @@ export default defineUserConfig({
   bundler: viteBundler(),
   base: '/repository_name/',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/repository_name/favicon.ico' }]
   ],
   theme: defaultTheme({
     logo: 'logo.png',
