@@ -16,7 +16,7 @@ export default defineUserConfig({
         {
           text: 'CyberDefense Pro',
           children: [
-            { text: "Basic", link: '/' },
+            { text: "About", link: '/' },
           ],
         },
         {
